@@ -1,6 +1,6 @@
 # Write your MySQL query statement below
 
-SELECT customer_id,COUNT(*)as count_no_trans
+SELECT customer_id,COUNT(customer_id)as count_no_trans
 FROM 
 VISITS AS V
 LEFT JOIN 
