@@ -8,7 +8,7 @@ public:
       for(int i =1;i<n;i++)
       {
       string  h =s.substr(0,i);
-      string  l =s.substr(i,n-i+1);
+      string  l =s.substr(i,n-i);
       st =l+h;
       if(st==goal) return true;
     }
